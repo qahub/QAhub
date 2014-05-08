@@ -25,7 +25,7 @@
 				
 				$.ajax({
 					url: 'qa_cgi/loadQAData.php',
-					data: { topic: 'FuMu', count: tmpCount, fration: 0 },
+					data: { topic: 'Nuclear', count: tmpCount, fration: 0 },
 					type: "GET",
 					dataType: "json",
 					success: function(data){
@@ -62,7 +62,7 @@
 				
 				$.ajax({
 					url: 'qa_cgi/loadQAData.php',
-					data: { topic: 'FuMu', count: tmpCount, fration: 1 },
+					data: { topic: 'Nuclear', count: tmpCount, fration: 1 },
 					type: "GET",
 					dataType: "json",
 					success: function(data){
